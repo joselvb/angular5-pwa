@@ -1,0 +1,47 @@
+{
+  "configVersion": 1,
+  "index": "/Angular5PWA/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/Angular5PWA/favicon.ico",
+        "/Angular5PWA/index.html",
+        "/Angular5PWA/inline.318b50c57b4eba3d437b.bundle.js",
+        "/Angular5PWA/main.6510b6ad8fee6feced87.bundle.js",
+        "/Angular5PWA/polyfills.95f523ba519ac2af484d.bundle.js",
+        "/Angular5PWA/styles.236c90af8293057e85f8.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/Angular5PWA/assets/icon-128x128.png",
+        "/Angular5PWA/assets/icon-152x152.png",
+        "/Angular5PWA/assets/icon-256x256.png",
+        "/Angular5PWA/assets/icon-512x512.png"
+      ],
+      "patterns": [
+        "https:\\/\\/cataas\\.com\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Angular5PWA/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "/Angular5PWA/assets/icon-128x128.png": "220a3bebb249356f67f1266c29301640f1a7bffd",
+    "/Angular5PWA/main.6510b6ad8fee6feced87.bundle.js": "ebcae47b4376011ef162f72b2967b55029af4819",
+    "/Angular5PWA/assets/icon-152x152.png": "638e70e39d371a12eb98e22916fa7c2bc0cf0b6c",
+    "/Angular5PWA/polyfills.95f523ba519ac2af484d.bundle.js": "deb3bb32039edd76a8f1c0a02d1e98148d8f03f7",
+    "/Angular5PWA/assets/icon-256x256.png": "8745f9caddf3b52271e9c022e0ded147436e4442",
+    "/Angular5PWA/styles.236c90af8293057e85f8.bundle.css": "95bca5deee6ffb01816c59cfe93011856f3a5647",
+    "/Angular5PWA/assets/icon-512x512.png": "df369620e789e07fe097c64180ec40d7c36018a2",
+    "/Angular5PWA/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/Angular5PWA/index.html": "f82bffb8730a1328ffe3b5cd74c72360fc612593"
+  }
+}
