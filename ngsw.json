@@ -10,9 +10,9 @@
         "/angular5-pwa/favicon.ico",
         "/angular5-pwa/index.html",
         "/angular5-pwa/inline.318b50c57b4eba3d437b.bundle.js",
-        "/angular5-pwa/main.6510b6ad8fee6feced87.bundle.js",
+        "/angular5-pwa/main.96d6de5987f4a3842d06.bundle.js",
         "/angular5-pwa/polyfills.95f523ba519ac2af484d.bundle.js",
-        "/angular5-pwa/styles.f08809c0c1678c988fc6.bundle.css"
+        "/angular5-pwa/styles.9464ecbf401f87fba2da.bundle.css"
       ],
       "patterns": []
     },
@@ -35,13 +35,13 @@
   "hashTable": {
     "/angular5-pwa/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
     "/angular5-pwa/assets/icon-128x128.png": "220a3bebb249356f67f1266c29301640f1a7bffd",
-    "/angular5-pwa/main.6510b6ad8fee6feced87.bundle.js": "ebcae47b4376011ef162f72b2967b55029af4819",
+    "/angular5-pwa/main.96d6de5987f4a3842d06.bundle.js": "9cb04a26bc0cdce73a46cf865650f9ee1e39a0f7",
     "/angular5-pwa/assets/icon-152x152.png": "638e70e39d371a12eb98e22916fa7c2bc0cf0b6c",
     "/angular5-pwa/polyfills.95f523ba519ac2af484d.bundle.js": "deb3bb32039edd76a8f1c0a02d1e98148d8f03f7",
     "/angular5-pwa/assets/icon-256x256.png": "8745f9caddf3b52271e9c022e0ded147436e4442",
-    "/angular5-pwa/styles.f08809c0c1678c988fc6.bundle.css": "95bca5deee6ffb01816c59cfe93011856f3a5647",
+    "/angular5-pwa/styles.9464ecbf401f87fba2da.bundle.css": "2d54a334bf71713644c3c2f6aeed7da1ab2a647c",
     "/angular5-pwa/assets/icon-512x512.png": "df369620e789e07fe097c64180ec40d7c36018a2",
     "/angular5-pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/angular5-pwa/index.html": "47a52f1bc8a339b949e46c03536f8d652cd508fb"
+    "/angular5-pwa/index.html": "4b61ff42b09fac8718622a8db653fcd95f519d70"
   }
 }
