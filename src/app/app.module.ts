@@ -16,10 +16,10 @@ import { ImgCardComponent } from './img-card/img-card.component';
   ],
   imports: [
     BrowserModule,
+    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : [],
     MatToolbarModule,
     MatCardModule,
-    MatButtonModule,
-    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
