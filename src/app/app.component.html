@@ -4,4 +4,4 @@
 </mat-toolbar>
 <app-img-card></app-img-card>
 
-<button title="subscribe to push notifications" id="subscribePushNotifications" *ngIf="pushIsSupported" (click)="subscribeToPushNotifications()">Subscribe</button>
+<button (click)="subscribeToPushNotifications()" mat-button mat-raised-button>Subscribe</button>

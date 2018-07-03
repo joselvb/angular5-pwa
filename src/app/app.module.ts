@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 
 import { environment } from '../environments/environment';
 import { ImgCardComponent } from './img-card/img-card.component';
+import { PushNotificationSubscriptionsService } from './push-notification-subscriptions.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,12 +18,13 @@ import { ImgCardComponent } from './img-card/img-card.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : [],
     MatToolbarModule,
     MatCardModule,
     MatButtonModule
   ],
-  providers: [],
+  providers: [PushNotificationSubscriptionsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
