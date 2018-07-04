@@ -9,7 +9,7 @@ export class PushNotificationSubscriptionsService {
   constructor(private http: HttpClient) { }
 
   createSubscription(pushSubscription) {
-    return this.http.post('http://localhost:5000/api/PushNotificationSubscriptions', pushSubscription);
+    return this.http.post('http://localhost:5000/api/push-notification-subscription', pushSubscription);
   }
 
 }

@@ -10,21 +10,13 @@ import { PushNotificationSubscriptionsService } from './push-notification-subscr
 export class AppComponent {
   title = 'Angular 5 PWA';
 
-  readonly VAPID_PUBLIC_KEY = 'BIK-LCn6TfVBYRXvhNJH6Qx27mxbHTQoQWeOIgFgTFBRt0xlM6QWrvbL3tKOtPP37q6ZMfj5ifeYdIQYJT-muUU';
+  readonly VAPID_PUBLIC_KEY = 'BAvyBimPt4GhPo5qWR-6GhPo6kMlwsmxGgVyRvuRYtEck0Hz4kLOG8lc23p3K_mRH1bgqUU5BdWzxMXb6boVzi4';
 
-// Public Key:
-// BIK-LCn6TfVBYRXvhNJH6Qx27mxbHTQoQWeOIgFgTFBRt0xlM6QWrvbL3tKOtPP37q6ZMfj5ifeYdIQYJT-muUU
-
-// Private Key:
-// SNtiUdswHH2_Z8QDcQC162GUyz3G2mgCJMhgKsRcbVs
+// {"publicKey":"BAvyBimPt4GhPo5qWR-6GhPo6kMlwsmxGgVyRvuRYtEck0Hz4kLOG8lc23p3K_mRH1bgqUU5BdWzxMXb6boVzi4","privateKey":"WgOFGuwBA8tVzVOQn2M-oFqtgZvlmvJtFLC1VHq-Pho"}
 
   constructor(private swPush: SwPush, private pushNotificationSubscriptionsService: PushNotificationSubscriptionsService) { }
 
   subscribeToPushNotifications() {
-    console.log('swPush.isEnabled:', this.swPush.isEnabled);
-
-    this.swPush.subscription.subscribe((sub) => console.log('swPush.subscription', sub));
-
     this.swPush.requestSubscription({
       serverPublicKey: this.VAPID_PUBLIC_KEY
     })
